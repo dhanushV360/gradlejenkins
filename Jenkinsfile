@@ -7,7 +7,7 @@ jdk 'JDK17'
 stages{
 stage('Checkout'){
 steps{
-git branch:'master',url:'https://github.com/dhanushV360/gradlejenkins.git'
+git branch:'main',url:'https://github.com/dhanushV360/gradlejenkins.git'
 }
 }
 stage('Build'){
